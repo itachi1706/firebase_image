@@ -33,7 +33,7 @@ class FirebaseImageObject {
   ) {
     final remotePath = map['remotePath'] as String;
     final bucket = map['bucket'] as String;
-    final reference = getImageRef(
+    final reference = _getImageRef(
       bucket: bucket,
       remotePath: remotePath,
       firebaseApp: firebaseApp,
@@ -48,7 +48,7 @@ class FirebaseImageObject {
     );
   }
 
-  static Reference getImageRef({
+  static Reference _getImageRef({
     required String bucket,
     required String remotePath,
     FirebaseApp? firebaseApp,
