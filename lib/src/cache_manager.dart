@@ -97,6 +97,8 @@ class FirebaseImageCacheManager {
           returnObject,
           image,
         ));
+      }
+      return returnObject;
     }
     return null;
   }
