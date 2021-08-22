@@ -1,0 +1,4 @@
+{
+    "image": "itachi1706/flutter-alpine-android:web",
+    "forwardPorts": [3000]
+}
